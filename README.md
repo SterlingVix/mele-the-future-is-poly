@@ -1,9 +1,10 @@
-# mele-the-future-is-poly
-Mass Effect: Legendary Edition mod for non-monogamous relationships.
+# What is this?
+`The Future is Poly` is an open source mod for non-monogamous relationships in Mass Effect: Legendary Edition.
 
-## What is this?
-"The Future is Poly" is an open source mod for multiple relationships in Mass Effect: Legendary Edition. It covers the following relationships:
+`The Future is Poly` uses (the excellent!) [ME3 TweaksModManager and Legendary Explorer](https://github.com/ME3Tweaks) to create and package mods for distribution. 
+> NOTE: The Mod ID (for ME3Tweaks) is `4740`. I intend to use the `4730`, `4740`, and maybe `4750` Mod IDs.
 
+### What relationships does it cover?
 #### LE1 (Mass Effect 1):
 * Ashley
 * Kaidan
@@ -15,21 +16,28 @@ Mass Effect: Legendary Edition mod for non-monogamous relationships.
 #### LE3 (Mass Effect 3):
 * ...TBD
 
-## How can I contribute?
-### Real talk: I am doing this for fun and this is not mu job, so I make *no promises* as to the timeliness of responses or the likelihood of requests being implemented. Thanks in advance for your understanding.
+# Doesn't this exist already?
+I dunno! I understand there are non-heteronormative mods out there for ME1 - ME3, but I don't know if there are "multiple romance" mods.
 
-#### Contribute code:
+If similar/identical mods do exist, I have not referenced their code, and don't intend to. 
+
+# How can I contribute?
+> Real talk: I am doing this for fun and this is not my job, so I make *no promises* as to the timeliness of responses or the likelihood of requests being implemented. Thanks in advance for your understanding.
+You can contribute in the following ways:
+
+### Contribute code:
 Make a pull request, ideally from an issue.
-`The Future is Poly` uses (the excellent!) [ME3 TweaksModManager and Legendary Explorer](https://github.com/ME3Tweaks) to create and package mods for distribution.
-You can contribute code to the core game changes ("the mod").
-You can contribute code to improve the distribution / installation of the mod.
+* You can contribute code to the core game changes ("the mod").
+* You can contribute code to improve the distribution / installation of the mod.
+  * I won't personally make non-ME3 versions of this mod, but feel free to open a PR with the work done if it's important to you.
 
-#### Contribute documentation:
+### Contribute documentation:
 Not sure if this will be necessary, but update notes/documentation in the code or in this README.
+
 This repo includes notes on the changes made to the game's core files in order to achieve non-monogamous relationships. I hope these can be useful for others who want to start modding or make contributions to this mod. 🤷‍♀️
 
-#### Report an issue / bug:
+### Report an issue / bug:
 Open an "issue" in this repo. Please take some time to make sure your reported issue(s) aren't already reported -- otherwise it'll take my time. 😢
 
-#### Request a feature
+### Request a feature
 TBD, but probably open an issue.
