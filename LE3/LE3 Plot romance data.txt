@@ -1,0 +1,169 @@
+2511	7063	lightRomance_done	
+3160	8778	Did_the_Romance	
+3161	8779	Non_Romance_ending	
+3270	9102	Romance_Ended_Poorly	ME3.ME2_Plots_for_ME3.Global.Henchmen.Convict.Romance_Ended_Poorly
+3304	9216	Romance_Ended_Poorly	ME3.ME2_Plots_for_ME3.Global.Henchmen.Vixen.Romance_Ended_Poorly
+3307	9232	Romance_Ended_Poorly	ME3.ME2_Plots_for_ME3.Global.Henchmen.Tali.Romance_Ended_Poorly
+3310	9252	Romance_Ended_Poorly	ME3.ME2_Plots_for_ME3.Global.Henchmen.Assassin.Romance_Ended_Poorly
+3472	9709	Romance_ended_poorly	ME3.ME2_Plots_for_ME3.Global.Henchmen.Leading.Romance_ended_poorly
+3660	10233	Romance_Ended_Poorly	ME3.ME2_Plots_for_ME3.Global.Henchmen.Garrus.Romance_Ended_Poorly
+3799	10632	Romance_ended_mutual	
+3894	10927	Declared_romance	
+5070	13727	Romance	
+5751	15736	Had_Faux_Romance	
+6665	18121	Miranda_Romance_Resolution	
+6666	18122	Miranda_Romance_Active	
+6667	18123	Miranda_Romance_Breakup	
+6668	18124	Tali_Romance_Resolution	
+6669	18125	Tali_Romance_Active	
+6670	18126	Tali_Romance_Breakup	
+6672	18128	Jack_Romance_Resolution	
+6673	18129	Jack_Romance_Active	
+6674	18130	Jack_Romance_Breakup	
+6675	18131	Thane_Romance_Resolution	
+6676	18132	Thane_Romance_Active	
+6677	18133	Thane_Romance_Breakup	
+6678	18134	Jacob_Romance_Resolution	
+6679	18135	Jacob_Romance_Active	
+6680	18136	Jacob_Romance_Breakup	
+6681	18137	Garrus_Romance_Resolution	
+6682	18138	Garrus_Romance_Active	
+6683	18139	Garrus_Romance_Breakup	
+6685	18141	Samara_Romance	
+7048	19237	Shuttle_Asked_Romance	
+7148	19472	Chose_ParagonRomance_Final	
+7160	19515	Chose_ParagonRomance_Initial	
+7364	20050	Ashley_Romance	
+7365	20051	Kaiden_Romance	
+7374	20068	No_Romance	
+13960	32536	Romance_active	ME3.ME1_Plots_for_ME3.Global_Plots.Henchman_Kaidan.Romance_active
+13961	32539	Romance_cancelled	
+14281	33383	romance_active	ME3.ME1_Plots_for_ME3.Global_Plots.Henchman_Ash.romance_active
+14282	33384	romance_cancelled	
+14686	34633	Romance_Cancelled	
+16528	40470	Romance_State	
+16800	41181	Romance_Complete	
+18907	53552	Lied_About_Romance	ME3.Global.Henchmen.Ashley.Lied_About_Romance
+18909	53558	Lied_About_Romance	ME3.Global.Henchmen.Kaidan.Lied_About_Romance
+19339	54630	Ash_Romance_Rebuffed	ME3.Prologue.ProMar.Writer_States.Ash_Kaidan_Nice2
+19341	54633	Kaidan_Romance_Rebuffed	ME3.Prologue.ProMar.Writer_States.Kaidan_Romance_Rebuffed
+19600	55360	Interested_in_K_romance	ME3.Citadel.CitHub.Ash_Kaidan.Interested_in_K_romance
+19723	55772	Romance_Accepted	ME3.Global.Henchmen.Kaidan.Romance_Accepted
+19724	55773	Romance_Accepted	ME3.Global.Henchmen.Ashley.Romance_Accepted
+19725	55774	Romance_Accepted	ME3.Global.Henchmen.Garrus.Romance_Accepted
+19726	55775	Romance_Accepted	ME3.Global.Henchmen.Tali.Romance_Accepted
+19728	55777	Romance_Rejected	ME3.Global.Henchmen.Kaidan.Romance_Rejected
+19729	55778	Romance_Rejected	ME3.Global.Henchmen.Ashley.Romance_Rejected
+19730	55779	Romance_Rejected	ME3.Global.Henchmen.Garrus.Romance_Rejected
+19731	55780	Romance_Rejected	ME3.Global.Henchmen.Tali.Romance_Rejected
+19835	55969	Romance_Accepted	ME3.Normandy.Light_Characters.Comm.Romance_Accepted
+19836	55970	Romance_Rejected	ME3.Normandy.Light_Characters.Comm.Romance_Rejected
+19838	55974	Romance_Accepted	ME3.Normandy.Light_Characters.Pilot.Romance_Accepted
+19839	55975	Romance_Rejected	ME3.Normandy.Light_Characters.Pilot.Romance_Rejected
+19846	56006	Romance_Accepted	ME3.Global.Henchmen.Jack.Romance_Accepted
+19847	56007	Romance_Rejected	ME3.Global.Henchmen.Jack.Romance_Rejected
+19866	56039	Ash_interested_romance	ME3.Citadel.CitHub.Ash_Kaidan.Ash_interested_romance
+20008	56369	Romance_Accepted	
+20014	56380	Romance_Rejected	
+20023	56400	Romance_True	ME3.Global.Henchmen.Marine.Relationship.Romance_True
+20554	57784	Romance_Accepted	ME3.Omega.OmgJck.Writing_States.Romance_Accepted
+20630	57960	Romance_Culmination	ME3.Normandy.Light_Characters.War_Reporter.Relationship.Romance_Culmination
+21100	59174	Romance_Accepted	ME3.Normandy.Light_Characters.Kelly.Romance_Accepted
+21164	59344	Post_Romance	ME3.Normandy.Light_Characters.Kelly.Comments.Post_Romance
+21625	60764	Ash_Tali_Romanced_Alt_Shep_reaction	ME3.Citadel.CitHub.Ash_Kaidan.Ash_Tali_Romanced_Alt_Shep_reaction
+21750	61124	Romance_Accepted	ME3.Global.Henchmen.Miranda.Romance_Accepted
+21751	61125	Romance_Rejected	ME3.Global.Henchmen.Miranda.Romance_Rejected
+22401	63134	Start_Ash_Romance	ME3.Global.ME3_Texts.Plot_Completion.Start_Ash_Romance
+22402	63138	Start_Kaidan_Romance	ME3.Global.ME3_Texts.Plot_Completion.Start_Kaidan_Romance
+22508	63376	Traynor_Char_moment_romance	ME3.Global.ME3_Texts.Plot_Completion.Traynor_Char_moment_romance
+22509	63379	Traynor_Char_moment_NoRomance	ME3.Global.ME3_Texts.Plot_Completion.Traynor_Char_moment_NoRomance
+22513	63387	Tali_R1_NoRomance	ME3.Global.ME3_Texts.Plot_Completion.Tali_R1_NoRomance
+22514	63389	Tali_R1_romance	ME3.Global.ME3_Texts.Plot_Completion.Tali_R1_romance
+22521	63403	Tali_Cit2_done_NoRomance	ME3.Global.ME3_Texts.Plot_Completion.Tali_Cit2_done_NoRomance
+22522	63405	Tali_Cit2_done_romance	ME3.Global.ME3_Texts.Plot_Completion.Tali_Cit2_done_romance
+22527	63415	Ash_Char_moment_romance	ME3.Global.ME3_Texts.Plot_Completion.Ash_Char_moment_romance
+22528	63417	Ash_Char_moment_NoRomance	ME3.Global.ME3_Texts.Plot_Completion.Ash_Char_moment_NoRomance
+22538	63447	Garrus_R1_romance	ME3.Global.ME3_Texts.Plot_Completion.Garrus_R1_romance
+22539	63449	Garrus_R1_NoRomance	ME3.Global.ME3_Texts.Plot_Completion.Garrus_R1_NoRomance
+22543	63457	Garrus_Char_moment_romance	ME3.Global.ME3_Texts.Plot_Completion.Garrus_Char_moment_romance
+22544	63459	Garrus_Char_moment_NoRomance_missed	ME3.Global.ME3_Texts.Plot_Completion.Garrus_Char_moment_NoRomance_missed
+22545	63461	Garrus_Char_moment_NoRomance_hit	ME3.Global.ME3_Texts.Plot_Completion.Garrus_Char_moment_NoRomance_hit
+22548	63467	Kaidan_CerJcb_NoRomance	ME3.Global.ME3_Texts.Plot_Completion.Kaidan_CerJcb_NoRomance
+22549	63469	Kaidan_CerJcb_romance	ME3.Global.ME3_Texts.Plot_Completion.Kaidan_CerJcb_romance
+22552	63475	Kaidan_char_romance_accepted	ME3.Global.ME3_Texts.Plot_Completion.Kaidan_char_romance_accepted
+22553	63477	Kaidan_rejoins_NoRomance	ME3.Global.ME3_Texts.Plot_Completion.Kaidan_rejoins_NoRomance
+22554	63479	Kaidan_rejoins_romance	ME3.Global.ME3_Texts.Plot_Completion.Kaidan_rejoins_romance
+23656	67030	Romance_Jacob	ME3.DLC_CON_DH1.ME2.Romance_Jacob
+23657	67032	Romance_Garrus	ME3.DLC_CON_DH1.ME2.Romance_Garrus
+23658	67034	Romance_none	ME3.DLC_CON_DH1.ME2.Romance_none
+23659	67037	Romance_Miranda	ME3.DLC_CON_DH1.ME2.Romance_Miranda
+23660	67038	Romance_Tali	ME3.DLC_CON_DH1.ME2.Romance_Tali
+23797	67418	Non_Romance_Player_Chose_Paragon	ME3.DLC_EXP_Pack003.Apartment.Character_Moments.Tali.Non_Romance_Player_Chose_Paragon
+24246	69007	JackRomance	
+24247	69008	Active	ME3.DLC_EXP_Pack003.CmbtSim.CombatStates.JackRomance.Active
+24248	69009	Complete	ME3.DLC_EXP_Pack003.CmbtSim.CombatStates.JackRomance.Complete
+24385	69450	Thane_Romance_Accepted	ME3.DLC_EXP_Pack003.Apartment.Character_Moments.Thane.Thane_Romance_Accepted
+24993	71611	Traynor_Romance_Shepard	ME3.DLC_EXP_Pack003.Apartment.Character_Moments.Apartment_Moments.Traynor_Romance_Shepard
+25014	71667	Garrus_Casino_MomentDone_romance	ME3.DLC_EXP_Pack003.DLC_Texts.Garrus_Casino_MomentDone_romance
+25017	71673	Garrus_Party_romance	ME3.DLC_EXP_Pack003.DLC_Texts.Garrus_Party_romance
+7005	19062	Feron_romances_Liara	
+7366	20052	Liara_Romance	
+14169	33098	Romance_active	ME3.ME1_Plots_for_ME3.Global_Plots.Henchman_Liara.Romance_active
+19722	55771	Romance_Accepted	ME3.Global.Henchmen.Liara.Romance_Accepted
+19727	55776	Romance_Rejected	ME3.Global.Henchmen.Liara.Romance_Rejected
+21758	61147	Continuing_ME1_romance	ME3.Global.Henchmen.Liara.Writer_states.Continuing_ME1_romance
+22403	63140	No_Liara_Romance	ME3.Global.ME3_Texts.Plot_Completion.No_Liara_Romance
+22404	63142	Start_Liara_Romance	ME3.Global.ME3_Texts.Plot_Completion.Start_Liara_Romance
+22555	63481	Liara_R1_NoRomance	ME3.Global.ME3_Texts.Plot_Completion.Liara_R1_NoRomance
+22556	63483	Liara_R1_romance	ME3.Global.ME3_Texts.Plot_Completion.Liara_R1_romance
+22565	63511	Liara_char_moment_romance	ME3.Global.ME3_Texts.Plot_Completion.Liara_char_moment_romance
+25023	71685	Liara_Char_Moment_Romance	ME3.DLC_EXP_Pack003.DLC_Texts.Liara_Char_Moment_Romance
+25024	71687	Liara_Char_Moment_NonRomance	ME3.DLC_EXP_Pack003.DLC_Texts.Liara_Char_Moment_NonRomance
+25025	71689	Liara_Party_Complete_Romance	ME3.DLC_EXP_Pack003.DLC_Texts.Liara_Party_Complete_Romance
+25026	71691	Liara_Party_Complete_NonRomance	ME3.DLC_EXP_Pack003.DLC_Texts.Liara_Party_Complete_NonRomance
+25029	71697	Ash_Casino_Moment_Romance	ME3.DLC_EXP_Pack003.DLC_Texts.Ash_Casino_Moment_Romance
+25030	71699	Ash_Casino_Moment_NonRomance	ME3.DLC_EXP_Pack003.DLC_Texts.Ash_Casino_Moment_NonRomance
+25031	71701	Ash_Party_Done_Romance	ME3.DLC_EXP_Pack003.DLC_Texts.Ash_Party_Done_Romance
+25032	71703	Ash_Party_Done_NonRomance	ME3.DLC_EXP_Pack003.DLC_Texts.Ash_Party_Done_NonRomance
+25033	71705	Miranda_Apt_Scene_Romance	ME3.DLC_EXP_Pack003.DLC_Texts.Miranda_Apartment_Scene_Romance
+25034	71707	Miranda_Apartment_Scene_NonRomance	ME3.DLC_EXP_Pack003.DLC_Texts.Miranda_Apartment_Scene_NonRomance
+25035	71709	Miranda_Cas_Moment_Romanced	ME3.DLC_EXP_Pack003.DLC_Texts.Miranda_Casino_Moment_Romanced
+25036	71711	Miranda_Cas_Moment_NonRomance	ME3.DLC_EXP_Pack003.DLC_Texts.Miranda_Casino_Moment_NonRomance
+25037	71714	Miranda_Party_Done_Romance	ME3.DLC_EXP_Pack003.DLC_Texts.Miranda_Party_Done_Romance
+25038	71716	Miranda_Party_Done_NonRomance	ME3.DLC_EXP_Pack003.DLC_Texts.Miranda_Party_Done_NonRomance
+25044	71729	Had_romance_talk_instead	ME3.DLC_EXP_Pack003.CitCas.Jacob.Had_romance_talk_instead
+25045	71731	Samara_Romance_done	ME3.DLC_EXP_Pack003.DLC_Texts.Samara_Romance_done
+25051	71743	Tali_Apt_Non_Romance	ME3.DLC_EXP_Pack003.DLC_Texts.Tali_Apt_Non_Romance
+25052	71744	Tali_Apt_Romance	ME3.DLC_EXP_Pack003.DLC_Texts.Tali_Apt_Romance
+25060	71752	Jack_Combat_Sim_Romance	ME3.DLC_EXP_Pack003.DLC_Texts.Jack_Combat_Sim_Romance
+25061	71753	Jack_Combat_Sim_NoRomance	ME3.DLC_EXP_Pack003.DLC_Texts.Jack_Combat_Sim_NoRomance
+25069	71778	Kaidan__Female_romance__Did_character_moment_	ME3.DLC_EXP_Pack003.DLC_Texts.Kaidan__Female_romance__Did_character_moment_
+25071	71780	Kaidan__Male_romance__Did_character_moment_	ME3.DLC_EXP_Pack003.DLC_Texts.Kaidan__Male_romance__Did_character_moment_
+25072	71781	Jacob_ROMANCED_ME2__Went_to_party_	ME3.DLC_EXP_Pack003.DLC_Texts.Jacob_ROMANCED_ME2__Went_to_party_
+25073	71782	Kaidan__Nonromance__Did_character_moment	ME3.DLC_EXP_Pack003.DLC_Texts.Kaidan__Nonromance__Did_character_moment
+25076	71792	Cortez_CitCas_Romance	ME3.DLC_EXP_Pack003.DLC_Texts2.Cortez_CitCas_Romance
+25079	71795	Cortez_CitApt_Romance	ME3.DLC_EXP_Pack003.DLC_Texts2.Cortez_CitApt_Romance
+25081	71797	Cortex_Party_Romance	ME3.DLC_EXP_Pack003.DLC_Texts2.Cortex_Party_Romance
+25088	71817	Kaidan_Female_Romance_party_wakeup	ME3.DLC_EXP_Pack003.DLC_Texts.Kaidan_Female_Romance_party_wakeup
+25090	71819	Kaidan_Male_Romance_party_wakeup	ME3.DLC_EXP_Pack003.DLC_Texts.Kaidan_Male_Romance_party_wakeup
+3408	9481	Had_Fling	
+6671	18127	Jack_Fling	
+
+770	2321	CaughtCheating	
+5170	13974	Monitor_Difficulty_Level_Player_Cheated	
+6928	18807	Gave_Cheater_Blowoff	
+13228	30554	Talked_To_Cheater_Once	
+19249	54347	Lied_About_Cheating	ME3.Citadel.CitHub.Ash_Kaidan.Lied_About_Cheating
+22327	62899	Apologized_for_Cheating_on_Kaidan	ME3.Citadel.CitHub.Ash_Kaidan.Apologized_for_Cheating_on_Kaidan
+21856	61665	Cheating_shepard_confronted	ME3.Global.Henchmen.Liara.Writer_states.Cheating_shepard_confronted
+
+
+
+
+
+
+
+
+
+
+

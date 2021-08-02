@@ -1,0 +1,123 @@
+4731
+Poly Ashley
+POLY_ASHLEY
+DLC_MOD_POLY_ASHLEY
+
+
+4732
+Poly Diana
+POLY_DIANA
+DLC_MOD_POLY_DIANA
+
+
+4733
+Poly Garrus
+POLY_GARRUS
+DLC_MOD_POLY_GARRUS
+
+
+4734
+Poly Jack
+POLY_JACK
+DLC_MOD_POLY_JACK
+
+
+4735
+Poly Jacob
+POLY_JACOB
+DLC_MOD_POLY_JACOB
+
+
+4736
+Poly James
+POLY_JAMES
+DLC_MOD_POLY_JAMES
+
+
+4737
+Poly Javik
+POLY_JAVIK
+DLC_MOD_POLY_JAVIK
+
+
+4738
+Poly Kaidan
+POLY_KAIDAN
+DLC_MOD_POLY_KAIDAN
+
+
+4739
+Poly Kelly
+POLY_KELLY
+DLC_MOD_POLY_KELLY
+
+4730
+Poly Liara
+POLY_LIARA
+DLC_MOD_POLY_LIARA
+
+4740
+Poly Miranda
+POLY_MIRANDA
+DLC_MOD_POLY_MIRANDA
+
+
+4741
+Poly Samantha
+POLY_SAMANTHA
+DLC_MOD_POLY_SAMANTHA
+
+
+4742
+Poly Samara
+POLY_SAMARA
+DLC_MOD_POLY_SAMARA
+
+
+4743
+Poly Steve
+POLY_STEVE
+DLC_MOD_POLY_STEVE
+
+
+4744
+Poly Tali
+POLY_TALI
+DLC_MOD_POLY_TALI
+
+
+4745
+Poly Thane
+POLY_THANE
+DLC_MOD_POLY_THANE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mkdir "Queer Ashley"
+mkdir "Queer Diana"
+mkdir "Queer Garrus"
+mkdir "Queer Jack"
+mkdir "Queer Jacob"
+mkdir "Queer James"
+mkdir "Queer Javik"
+mkdir "Queer Kaidan"
+mkdir "Queer Kelly"
+mkdir "Queer Liara"
+mkdir "Queer Miranda"
+mkdir "Queer Samantha"
+mkdir "Queer Samara"
+mkdir "Queer Steve"
+mkdir "Queer Tali"
+mkdir "Queer Thane"

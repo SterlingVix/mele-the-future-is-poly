@@ -1,0 +1,140 @@
+Breakup dialog is in: BioD_Nor_310_LiaraOffice > norhen_lia_break_ambs_a
+
+======================
+======================
+// ENTRY NODES
+// https://github.com/ME3Tweaks/LegendaryExplorer/wiki/Overview-of-the-Dialogue-Editor
+
+======================
+======================
+// DIALOG DUMPS
+// https://docs.google.com/spreadsheets/d/1cxEjAXS9ZC_aUZzIaTF2Vz-JtEt3XopwyjKDMGM-4ig/edit#gid=378148732
+
+======================
+======================
+// NOTES
+
+
+
+
+
+
+
+plot.bools[17662]     "Player is female"
+plot.bools[19283]     "Got_Some_Privacy ME3.Citadel.CitHub.Thane.Got_Some_Privacy"
+plot.bools[19722]     "Romance_Accepted ME3.Global.Henchmen.Liara.Romance_Accepted" 
+plot.bools[19723]     "Romance_Accepted ME3.Global.Henchmen.Kaidan.Romance_Accepted" 
+plot.bools[19724]     "Romance_Accepted ME3.Global.Henchmen.Ashley.Romance_Accepted" 
+plot.bools[19725]     "Romance_Accepted ME3.Global.Henchmen.Garrus.Romance_Accepted" 
+plot.bools[19726]     "Romance_Accepted ME3.Global.Henchmen.Tali.Romance_Accepted" 
+plot.bools[19727]     "Romance_Rejected  ME3.Global.Henchmen.Liara.Romance_Rejected
+plot.bools[19728]     "Romance_Rejected  ME3.Global.Henchmen.Kaidan.Romance_Rejected
+plot.bools[19729]     "Romance_Rejected  ME3.Global.Henchmen.Ashley.Romance_Rejected
+plot.bools[19730]     "Romance_Rejected  ME3.Global.Henchmen.Garrus.Romance_Rejected
+plot.bools[19731]     "Romance_Rejected  ME3.Global.Henchmen.Tali.Romance_Rejected
+plot.bools[19835]     "Romance_Accepted ME3.Normandy.Light_Characters.Comm.Romance_Accepted" 
+plot.bools[19836]     "Romance_Rejected  ME3.Normandy.Light_Characters.Comm.Romance_Rejected
+plot.bools[19838]     "Romance_Accepted ME3.Normandy.Light_Characters.Pilot.Romance_Accepted" 
+plot.bools[19839]     "Romance_Rejected  ME3.Normandy.Light_Characters.Pilot.Romance_Rejected
+plot.bools[19846]     "Romance_Accepted ME3.Global.Henchmen.Jack.Romance_Accepted" 
+plot.bools[19847]     "Romance_Rejected  ME3.Global.Henchmen.Jack.Romance_Rejected
+plot.bools[20008]     "romance accepted" // This is correct! No name.
+plot.bools[20014]     "Romance_Rejected
+plot.bools[20575]     "Rejected_Embedding                 ME3.Normandy.Light_Characters.War_Reporter.Relationship.Rejected_Embedding
+plot.bools[20630]     "Romance_Culmination ME3.Normandy.Light_Characters.War_Reporter.Relationship.Romance_Culmination"
+plot.bools[21393]     "Rejected_liara_mindmeld            ME3.End_Game.End001.Writer_States.Rejected_liara_mindmeld
+plot.bools[21750]     "Romance_Accepted ME3.Global.Henchmen.Miranda.Romance_Accepted"
+plot.bools[21751]     "Romance_Rejected                   ME3.Global.Henchmen.Miranda.Romance_Rejected
+plot.bools[22267]     "Rejected_Liara_Culmination_Scene   ME3.Global.Henchmen.Liara.Writer_states.Rejected_Liara_Culmination_Scene
+plot.bools[22320]     "Liara.Normandy.mentionedBreakup"
+
+
+======================
+======================
+CHANGES:
+// Conditionals:
+======================
+Jack Could_be_romantic    889
+(
+  (plot.bools[17662] == Bool false) &&  // female
+  (plot.bools[19722] == Bool false) &&
+  (plot.bools[19723] == Bool false) && 
+  (plot.bools[19724] == Bool false) && 
+  (plot.bools[19726] == Bool false) && 
+  (plot.bools[19838] == Bool false) && 
+  (plot.bools[19847] == Bool false) && // jack rejected
+  (plot.bools[21750] == Bool false)
+)
+Change to:
+((plot.bools[17662] == Bool false) && (plot.bools[19847] == Bool false))
+
+
+================================
+Jack is romantic          890
+(
+  (
+    (plot.bools[17662] == Bool false) && // male
+    (plot.bools[19722] == Bool false) && 
+    (plot.bools[19723] == Bool false) && 
+    (plot.bools[19724] == Bool false) && 
+    (plot.bools[19726] == Bool false) && 
+    (plot.bools[19838] == Bool false) && 
+    (plot.bools[19847] == Bool false) && // jack rejected
+    (plot.bools[21750] == Bool false) && 
+    (plot.ints[10343] >= i4)
+  ) || 
+  (plot.bools[19846] == Bool true)
+)
+
+Change to:
+(((plot.bools[17662] == Bool false) && (plot.ints[10343] >= i4) && (plot.bools[19847] == Bool false)) || (plot.bools[19846] == Bool true))
+
+
+
+================================
+
+// BioD_Nor_310LiaraOfficeCon.pcc
+// Sequence Editor
+Node 123 BioSeqAct_PMCheckConditional_1 -- true=385
+Node 385 SeqAct_SetInt_0 
+- target 173 Plot Int 10687 Mentioned_Breakup_Mission
+- value 174 Plot Int 10165 Mission_Count
+- Out 553
+Node 553 Conversation - norhen_lia_break_ambs_a_dlg
+- Owner 165 -> hench_liara
+- Out 364
+- Failed 364
+Node 364 FinishSequence_0
+TODO: Node 123 PMCheckConditional_1 should be "false" to skip the node. Otherwise, just bypass the node (but cond. is prob. better)
+// Package Editor
+Export 123: TheWorld.PersistentLevel.Main_Sequence.Generic_Ambients.BioSeqAct_PMCheckConditional_1
+- NOTE: 123 is also the Sequence node checking BioSeqAct_PMCheckConditional_1.
+m_nIndex 2288: LE3.Global.Henchmen.Liara.Normandy.Time_for_breakup
+- NOTE: Cnd 2288 = "time_for_breakup"
+
+
+
+======================
+    ME3
+======================
+// Conditionals Editor
+Conditionals.cnd
+
+// Conditionals
+13 - true (always returns true)
+14 - false (always returns false)
+
+
+// Prev games
+192 - ME1 kaidan had romance
+193 - ME1 liara had romance
+189 - ME1 ash had romance
+229 - ME2 Jacob had romance
+237 - ME2 Thane had romance
+238 - ME2 Jack had romance
+239 - ME2 Tali had romance
+245 - ME2 Jack had fling
+350 - ME1 ash alive and romanced
+352 - ME1 kaidan alive and romanced
+353 - ME1 kaidan alive no romance
+354 - ME1 ash alive no romance

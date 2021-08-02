@@ -1,0 +1,3 @@
+TODO: these are my initial mod attempts for LE3. They need to be verified and organized.
+
+Poly mods should be installable per-character.

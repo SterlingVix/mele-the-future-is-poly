@@ -1,0 +1,389 @@
+4730 Liara is Poly
+GOALS:
+* Romance with other people won't lock out Liara.
+* Romance w/ others won't trigger jealous lines.
+STRETCH GOALS:
+* Romance can be prioritized
+* Romance timing changed
+TODO: Create new conditional to replace Cnd 851. Only keep "plot.bools[19727] == Bool false "liara romance rejected"" in there.
+
+======================
+======================
+Breakup dialog is in: BioD_Nor_310_LiaraOffice > norhen_lia_break_ambs_a
+- entry node has Bool 22320 - Liara.Normandy.MentionedBreakup === 0
+- entry node also has Trans 4219 Liara.Normandy.SetMentionedBreakupTrue
+- Dialog sets Trans 3858 SetCheatingShepardConfrontedTrue.
+- Checks conditionals:
+-- 615
+-- 616
+-- 891
+-- 614
+-- 1815
+-- 618
+-- 882
+-- Bool 19838
+-- Bool 20630
+-- Bool 19283
+
+======================
+======================
+// ENTRY NODES
+https://github.com/ME3Tweaks/LegendaryExplorer/wiki/Overview-of-the-Dialogue-Editor
+* The game triggers a conversation, like "BioD_Nor_310_LiaraOffice > norhen_lia_break_ambs_a".
+** From a Sequence???
+* So figure out where this ^^^ convo is being triggered.
+
+======================
+======================
+
+// TODO: Make a new Bool "Liara is Poly" and include it below.
+
+
+CHANGES:
+// Conditionals:
+402 - Normandy Messsages TimeForLiaraCharMoment
+  plot.bools[22082] == Bool false)     "ME3.Citadel.CitHub.Liara.Had_Character_Moment"
+  XXX plot.bools[22320] == Bool false)     "Liara.Normandy.mentionedBreakup"
+  plot.ints[10210] == i0)              "Liara_Char_Moment"
+  plot.ints[10354] != i0)              "R2_Mission_Count"
+  plot.ints[10354] < plot.ints[10165]) "R2_Mission_Count < Adjust ME3.Global.Game_Progress.Current_Mission Mission_Count"
+
+
+================================
+545 - Liara is romantic
+(
+  (plot.bools[19722] == Bool true) || 
+  (
+    (plot.bools[19723] == Bool false) &&         "Romance_Accepted ME3.Global.Henchmen.Kaidan.Romance_Accepted" 
+    (plot.bools[19724] == Bool false) &&         "Romance_Accepted ME3.Global.Henchmen.Ashley.Romance_Accepted" 
+    (plot.bools[19725] == Bool false) &&         "Romance_Accepted ME3.Global.Henchmen.Garrus.Romance_Accepted" 
+    (plot.bools[19726] == Bool false) &&         "Romance_Accepted ME3.Global.Henchmen.Tali.Romance_Accepted" 
+    (plot.bools[19835] == Bool false) &&         "Romance_Accepted ME3.Normandy.Light_Characters.Comm.Romance_Accepted" 
+    (plot.bools[19838] == Bool false) &&         "Romance_Accepted ME3.Normandy.Light_Characters.Pilot.Romance_Accepted" 
+    (plot.bools[19846] == Bool false) &&         "Romance_Accepted ME3.Global.Henchmen.Jack.Romance_Accepted" 
+    (plot.bools[20008] == Bool false) &&         "romance accepted" // This is correct! No name.
+    (plot.bools[21750] == Bool false) &&         "Romance_Accepted ME3.Global.Henchmen.Miranda.Romance_Accepted"
+    (plot.ints[10320] >= i4) && 
+    (plot.bools[19727] == Bool false)             "liara romance rejected"
+  )
+)
+
+Change to:
+((plot.bools[19722] == Bool true) || ((plot.bools[20008] == Bool false) && (plot.ints[10320] >= i4) && (plot.bools[19727] == Bool false)))
+// (
+//   (plot.bools[19722] == Bool true) || 
+//   (
+//     (plot.bools[20008] == Bool false) &&   "romance accepted" // This is correct! No name.
+//     (plot.ints[10320] >= i4) && 
+//     (plot.bools[19727] == Bool false)      "liara romance rejected"
+//   )
+// )
+
+================================
+851 - Liara could be romantic
+  XXX plot.bools[19838] == Bool false      "pilot romance accepted"
+  XXX plot.bools[19835] == Bool false      "comm romance accepted"
+  XXX plot.bools[21750] == Bool false      "miranda romance accepted"
+  XXX plot.bools[19846] == Bool false      "jack romance accepted"
+  XXX plot.bools[19726] == Bool false      "tali romance accepted"
+  XXX plot.bools[19724] == Bool false      "ash romance accepted"
+  XXX plot.bools[19725] == Bool false      "garrus romance accepted"
+  XXX plot.bools[20008] == Bool false      "romance accepted" // This is correct! No name.
+  XXX plot.bools[19723] == Bool false      "kaiden romance accepted"
+  plot.bools[19727] == Bool false          "liara romance rejected"
+
+
+Change to:
+  plot.bools[19727] == Bool false          "liara romance rejected"
+
+
+================================
+1029 - Henchmen Liara Normandy TimeForCharacterMoment
+  XXX plot.bools[22320] == Bool false      "Liara.Normandy.mentionedBreakup"
+  plot.bools[20171] == Bool false      "ME3.Global.Henchmen.Liara.Normandy.Had_Character_Moment"
+  plot.ints[10210] > i1                "Liara_Char_Moment"
+
+
+================================
+2288 - LE3.Global.Henchmen.Liara.Normandy.Time_for_breakup
+   (plot.bools[14169] == Bool true)            "Romance_active"
+&& (plot.ints[10016] >= i4)                    "Romance_Buddy_dialog_count.ME3.ME1_Plots_for_ME3.Global_Plots.Henchman_Liara.Romance_Buddy_dialog_count >= i4"
+&& (plot.ints[10165] != plot.ints[10183])      "GameProgress.CurrentMission.Mission_Count != Cat002"
+&& (plot.ints[10165] != plot.ints[10184])      "GameProgress.CurrentMission.Mission_Count != Cat003"
+&& (plot.ints[10165] != plot.ints[10188])      "GameProgress.CurrentMission.Mission_Count != CerMir"
+&& (plot.ints[10165] != plot.ints[10185])      "GameProgress.CurrentMission.Mission_Count != Cat004"
+&& (plot.ints[10165] != plot.ints[10173])      "GameProgress.CurrentMission.Mission_Count != Gth002"
+&& (
+     (plot.bools[19283] == Bool true) ||     "Got_Some_Privacy ME3.Citadel.CitHub.Thane.Got_Some_Privacy"
+     (plot.bools[19723] == Bool true) ||     "Romance_Accepted ME3.Global.Henchmen.Kaidan.Romance_Accepted"
+     (plot.bools[19724] == Bool true) ||     "Romance_Accepted ME3.Global.Henchmen.Ashley.Romance_Accepted"
+     (plot.bools[19725] == Bool true) ||     "Romance_Accepted ME3.Global.Henchmen.Garrus.Romance_Accepted"
+     (plot.bools[19726] == Bool true) ||     "Romance_Accepted ME3.Global.Henchmen.Tali.Romance_Accepted"
+     (plot.bools[19835] == Bool true) ||     "Romance_Accepted ME3.Normandy.Light_Characters.Comm.Romance_Accepted"
+     (plot.bools[19838] == Bool true) ||     "Romance_Accepted ME3.Normandy.Light_Characters.Pilot.Romance_Accepted"
+     (plot.bools[19846] == Bool true) ||     "Romance_Accepted ME3.Global.Henchmen.Jack.Romance_Accepted"
+     (plot.bools[20630] == Bool true) ||     "Romance_Culmination ME3.Normandy.Light_Characters.War_Reporter.Relationship.Romance_Culmination"
+     (plot.bools[21750] == Bool true)        "Romance_Accepted ME3.Global.Henchmen.Miranda.Romance_Accepted"
+)   
+&& (plot.bools[21758] == Bool true)        "Continuing_ME1_romance ME3.Global.Henchmen.Liara.Writer_states.Continuing_ME1_romance"
+&& (
+     (plot.ints[10687] == i0)                "Mentioned_Breakup_Mission == i0" // TODO: I think this means the mission was set?
+  || (plot.ints[10165] == plot.ints[10687])  "GameProgress.CurrentMission.Mission_Count == Mentioned_Breakup_Mission"
+)
+
+  
+Change to:
+Bool false
+
+
+
+================================
+// TODO: 2620 = "Global.Henchmen.Liara.Writer_states.ShepardLovesSomeoneElse", has same as block above
+// TODO: this code is correct, but doesn't make any sense...
+(plot.bools[19283] == Bool true) &&     "Got_Some_Privacy ME3.Citadel.CitHub.Thane.Got_Some_Privacy"
+(plot.bools[19723] == Bool true) &&     "Romance_Accepted ME3.Global.Henchmen.Kaidan.Romance_Accepted"
+(plot.bools[19724] == Bool true) &&     "Romance_Accepted ME3.Global.Henchmen.Ashley.Romance_Accepted"
+(plot.bools[19725] == Bool true) &&     "Romance_Accepted ME3.Global.Henchmen.Garrus.Romance_Accepted"
+(plot.bools[19726] == Bool true) &&     "Romance_Accepted ME3.Global.Henchmen.Tali.Romance_Accepted"
+(plot.bools[19835] == Bool true) &&     "Romance_Accepted ME3.Normandy.Light_Characters.Comm.Romance_Accepted"
+(plot.bools[19838] == Bool true) &&     "Romance_Accepted ME3.Normandy.Light_Characters.Pilot.Romance_Accepted"
+(plot.bools[19846] == Bool true) &&     "Romance_Accepted ME3.Global.Henchmen.Jack.Romance_Accepted"
+(plot.bools[20630] == Bool true) &&     "Romance_Culmination ME3.Normandy.Light_Characters.War_Reporter.Relationship.Romance_Culmination"
+(plot.bools[21750] == Bool true)        "Romance_Accepted ME3.Global.Henchmen.Miranda.Romance_Accepted"
+
+  
+Change to:
+???
+
+
+
+================================
+
+// BioD_Nor_310LiaraOfficeCon.pcc
+// Sequence Editor
+Node 123 BioSeqAct_PMCheckConditional_1 -- true=385
+Node 385 SeqAct_SetInt_0 
+- target 173 Plot Int 10687 Mentioned_Breakup_Mission
+- value 174 Plot Int 10165 Mission_Count
+- Out 553
+Node 553 Conversation - norhen_lia_break_ambs_a_dlg
+- Owner 165 -> hench_liara
+- Out 364
+- Failed 364
+Node 364 FinishSequence_0
+TODO: Node 123 PMCheckConditional_1 should be "false" to skip the node. Otherwise, just bypass the node (but cond. is prob. better)
+// Package Editor
+Export 123: TheWorld.PersistentLevel.Main_Sequence.Generic_Ambients.BioSeqAct_PMCheckConditional_1
+- NOTE: 123 is also the Sequence node checking BioSeqAct_PMCheckConditional_1.
+m_nIndex 2288: LE3.Global.Henchmen.Liara.Normandy.Time_for_breakup
+- NOTE: Cnd 2288 = "time_for_breakup"
+
+
+
+||||||||||||||||||||||
+||||||||||||||||||||||
+    Saves diffs
+||||||||||||||||||||||
+||||||||||||||||||||||
+// After Traynor
+17670 bool - Utility.Henchmen.handshake.insquad.liara
+
+
+
+||||||||||||||||||||||
+||||||||||||||||||||||
+    Dialog dumps
+||||||||||||||||||||||
+||||||||||||||||||||||
+// https://docs.google.com/spreadsheets/d/1cxEjAXS9ZC_aUZzIaTF2Vz-JtEt3XopwyjKDMGM-4ig/edit#gid=378148732
+Owner 715879  "Shepard. I heard about you and Ashley."  norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 715880  "So, you rekindled your relationship with Garrus?"  norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 715881  "Shepard. I know you've gone back to Jack." norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 715882  "Shepard. I know you've taken up with Kaidan."  norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 715883  "Shepard, I know you and Miranda are together again." norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 715884  "Shepard. I know you've gone back to Tali." norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 715885  "Shepard. I heard about you and Samantha."  norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 715886  "Shepard. I've heard about you and Steve."  norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 715887  "Shepard. I know about you and Ms. Allers." norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 715888  "Shepard. I know you've gone back to Thane."  norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 715889  "Be with whoever you want to be with. I'm just not interested in playing games anymore."  norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 715890  "Really, I don't believe either of us has the time."  norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 715891  "I've got quite a bit to co-ordinate with my agents. If you want to talk, it has to be later."  norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Owner 716857  "I'm occupied, Shepard."  norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+Shepard 715893  "Liara, I..." norhen_lia_break_ambs_a_dlg LE3 BIOD_NOR_310LIARAOFFICECON_LOC_INT  319
+
+||||||||||||||||||||||
+||||||||||||||||||||||
+    vars
+||||||||||||||||||||||
+||||||||||||||||||||||
+======================
+    ME3
+======================
+// Conditionals Editor
+Conditionals.cnd
+
+// Scripts
+
+// Bool
+22320 - Liara.Normandy.mentionedBreakup <-- TODO: figure out who SETS this bool (which transition)
+19838 - Pilot.RomanceAccepted
+20630 - war reporter romance culmination
+19283 - thane got some privacy
+19722 - Liara romance accepted
+
+
+// Conditionals
+13 - true (always returns true)
+14 - false (always returns false)
+
+402 - Normandy Messsages TimeForLiaraCharMoment (bool 22320 == false) (This is "Liara mentioned breakup")
+  plot.bools[22082] == Bool false)     "ME3.Citadel.CitHub.Liara.Had_Character_Moment"
+  plot.bools[22320] == Bool false)     "Liara.Normandy.mentionedBreakup"
+  plot.ints[10210] == i0)              "Liara_Char_Moment"
+  plot.ints[10354] != i0)              "R2_Mission_Count"
+  plot.ints[10354] < plot.ints[10165]) "R2_Mission_Count < Adjust ME3.Global.Game_Progress.Current_Mission Mission_Count"
+
+1029 - Henchmen Liara Normandy TimeForCharacterMoment (bool 22320 == false) (This is "Liara mentioned breakup")
+  plot.bools[22320] == Bool false      "Liara.Normandy.mentionedBreakup"
+  plot.bools[20171] == Bool false      "ME3.Global.Henchmen.Liara.Normandy.Had_Character_Moment"
+  plot.ints[10210] > i1                "Liara_Char_Moment"
+
+2381 - normandy messages messages 100x time for messages (bool 22320 == true) (This is "Liara mentioned breakup")
+
+// Prev games
+192 - ME1 kaidan had romance
+193 - ME1 liara had romance
+189 - ME1 ash had romance
+229 - ME2 Jacob had romance
+231 - ME2 Jacob romance active
+232 - ME2 Miranda romance active
+233 - ME2 Thane romance active
+234 - ME2 Garrus romance active
+235 - ME2 Jack romance active
+236 - ME2 Tali romance active
+237 - ME2 Thane had romance
+238 - ME2 Jack had romance
+239 - ME2 Tali had romance
+245 - ME2 Jack had fling
+343 - ME2 Liara romance active
+350 - ME1 ash alive and romanced
+352 - ME1 kaidan alive and romanced
+353 - ME1 kaidan alive no romance
+354 - ME1 ash alive no romance
+
+// Romance
+851 - Liara could be romantic
+> ((plot.bools[19838] == Bool false) && (plot.bools[19835] == Bool false) && (plot.bools[21750] == Bool false) && (plot.bools[19846] == Bool false) && (plot.bools[19727] == Bool false) && (plot.bools[19726] == Bool false) && (plot.bools[19724] == Bool false) && (plot.bools[19725] == Bool false) && (plot.bools[20008] == Bool false) && (plot.bools[19723] == Bool false))
+  plot.bools[19838] == Bool false "pilot romance accepted"
+  plot.bools[19835] == Bool false "comm romance accepted"
+  plot.bools[21750] == Bool false "miranda romance accepted"
+  plot.bools[19846] == Bool false "jack romance accepted"
+  plot.bools[19726] == Bool false "tali romance accepted"
+  plot.bools[19724] == Bool false "ash romance accepted"
+  plot.bools[19725] == Bool false "garrus romance accepted"
+  plot.bools[20008] == Bool false "romance accepted" // This is correct! No name.
+  plot.bools[19723] == Bool false "kaiden romance accepted"
+  plot.bools[19727] == Bool false "liara romance rejected"
+
+227 - Tali is romantic
+545 - Liara is romantic
+546 - kaidan is romantic
+547 - ash is romantic
+548 - garrus is romantic
+883 - comm is romantic
+884 - pilot is romantic
+890 - jack is romantic
+928 - marine is romantic
+1816 - Miranda is romantic
+
+613 - Liara is true love
+614 - kaidan is true love
+615 - ash is true love
+616 - garrus is true love
+618 - tali is true love
+885 - comm is true love
+886 - pilot is true love
+891 - jack is true love
+1815 - Miranda is true love
+1818 - Miranda not romantic
+
+882 - Comm.checkRomanceAcceptedTrue
+
+
+496 - Kelly relationship friends or flirty
+500 - Kelly had flirty dinner together
+842 - ? tali on couch
+843 - tali in cabin
+844 - Tali.time for MR
+847 - Tali time for r2
+(857-880) - good / best friends / sidekick
+882 - Com check romance accepted true
+916 - pilot.relationship.time for intro
+917 - pilot.relationship.time for video
+918 - pilot.relationship.time for shuttle
+930 - marine relationship time for r1
+933 - Liara time for r1
+934 - Liara time for r2
+935 - Liara time for r3
+939 - Garrus time for r1
+940 - Garrus time for r2
+941 - Garrus time for r3
+
+944 - edi time for r1
+945 - edi time for r2
+946 - edi time for r3
+988 - comm time for r1
+989 - comm time for r2
+990 - comm time for r3
+
+??? - ash time for r1
+992 - ash time for r2
+9 - ash time for r3
+
+1989 - player male multiple partners
+
+
+
+// Transitions
+4653 - SetLiaraR1RomanceTrue -- BioD_Nor_310_LiaraOffice > norhen_lia_relationship1
+
+4219 - Liara.Normandy.set mentioned breakup true
+3858 - Liara.WriterStates.SetCheatingShepardConfrontedTrue
+
+
+
+||||||||||||||||||||||
+||||||||||||||||||||||
+NOTES
+||||||||||||||||||||||
+||||||||||||||||||||||
+* Romance w/ Traynor scene; then Liara said she heard about it, had no time for games. "You can be with whoever you want" or something.
+-- Does the shower scene have a transition?
+-- What is the Liara dialog conditional?
+
+
+||||||||||||||||||||||
+||||||||||||||||||||||
+
+
+
+910 - tali and garrus free to date
+
+
+
+
+
+
+
+
+||||||||||||||||||||||
+||||||||||||||||||||||
+    Files
+||||||||||||||||||||||
+||||||||||||||||||||||
+
+// Plot Editor
+
+
+// Dialog Editor

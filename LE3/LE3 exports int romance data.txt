@@ -1,0 +1,55 @@
+616	16012	Romance_Present	
+10015	34174	Romance_Buddy_dialog_count	ME3.ME1_Plots_for_ME3.Global_Plots.Henchman_Kaidan.Romance_Buddy_dialog_count
+10016	34200	Romance_Buddy_dialog_count	ME3.ME1_Plots_for_ME3.Global_Plots.Henchman_Liara.Romance_Buddy_dialog_count
+10017	34254	Romance_Buddy_dialog_count	ME3.ME1_Plots_for_ME3.Global_Plots.Henchman_Ash.Romance_Buddy_dialog_count
+10445	59167	Romance_Mission_Count	
+
+197	6862	Relationship	ME3.ME2_Plots_for_ME3.Global.Normandy.Yeoman.Relationship
+213	7392	Relationship	ME3.ME2_Plots_for_ME3.Global.Henchmen.Convict.Relationship
+266	9120	Relationship	ME3.ME2_Plots_for_ME3.Global.Henchmen.Vixen.Relationship
+267	9131	Relationship	ME3.ME2_Plots_for_ME3.Global.Henchmen.Leading.Relationship
+268	9132	Relationship	
+270	9134	Relationship	ME3.ME2_Plots_for_ME3.Global.Henchmen.Garrus.Relationship
+271	9135	Relationship	ME3.ME2_Plots_for_ME3.Global.Henchmen.Assassin.Relationship
+272	9136	Relationship	ME3.ME2_Plots_for_ME3.Global.Henchmen.Tali.Relationship
+273	9137	Relationship	
+274	9138	Relationship	
+275	9139	Relationship	
+10722	63648	Drunk_Tali_Talk_Count	ME3.Global.Henchmen.Tali.Relationship.Drunk_Tali_Talk_Count
+
+10454	59411	Admit_Love_Mission	
+10455	59413	Caught_Kissing_Mission	
+
+588	15568	Intim_Easy	
+589	15569	Intim_Common	
+590	15570	Intim_Hard	
+591	15571	Intim_Heroic	
+592	15572	Intim_Max	
+10025	34927	Number_of_Intimidates	
+10320	55723	Intimacy	Adjust ME3.Global.Henchmen.Liara.Intimacy
+10321	55724	Intimacy	Adjust ME3.Global.Henchmen.Kaidan.Intimacy
+10322	55725	Intimacy	Adjust ME3.Global.Henchmen.Ashley.Intimacy
+10323	55726	Intimacy	Adjust ME3.Global.Henchmen.Garrus.Intimacy
+10324	55727	Intimacy	Adjust ME3.Global.Henchmen.EDI.Intimacy
+10325	55728	Intimacy	Adjust ME3.Global.Henchmen.Prothean.Intimacy
+10326	55729	Intimacy	Adjust ME3.Global.Henchmen.Marine.Intimacy
+10327	55730	Intimacy	Adjust ME3.Global.Henchmen.Tali.Intimacy
+10337	55965	Intimacy	Adjust ME3.Normandy.Light_Characters.Comm.Intimacy
+10341	55973	Intimacy	Adjust ME3.Normandy.Light_Characters.Pilot.Intimacy
+10343	56005	Intimacy	Adjust ME3.Global.Henchmen.Jack.Intimacy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

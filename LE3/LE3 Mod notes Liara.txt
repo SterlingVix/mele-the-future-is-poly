@@ -1,0 +1,197 @@
+1546	4313	Met_up_with_Liara	
+1902	5388	Did_I_sleep_with_Liara	
+3356	9376	Liara_SH_Accepted	
+3357	9377	Liara_SH_Accomplished	
+3358	9378	Liara_SH_Thanked	
+3360	9384	Liara_Ob_Accepted	
+3361	9386	Liara_Ob_Accomplished	
+3368	9393	Liara_Ob_Thanked	
+3369	9403	Liara_Ob_Got_All_Five	
+4489	12532	Talk_to_Liara	
+4523	12645	Talk_to_Liara_j	
+6689	18146	Liara	
+6815	18565	LiaraDLC_Completed	
+6844	18628	LiaraGivenQuest	
+6879	18717	LiaraInSquad	
+6927	18806	Considered_in_Relationship_with_Liara	
+6932	18815	Liara_Has_Talked_This_Visit	
+6944	18854	Informed_Liara	
+6992	19002	Liara_Sniper_Rifle_Info	
+7005	19062	Feron_romances_Liara	
+7007	19068	Liara_Found	
+7056	19256	TowerHub_LiaraChaining	
+7075	19295	Hotel_Liara_First_Comment	
+7076	19297	Hotel_Liara_Second_Comment	
+7077	19299	Hotel_Liara_Post_Siege_Comment	
+7347	20020	Hotel_Liara_Blood_Ambient	
+7366	20052	Liara_Romance	
+7373	20061	Freeing_Liara	
+7387	20113	Liara_conv_flag_1	
+7388	20115	Liara_conv_flag_2	
+12364	28248	Rescued_Liara	
+12365	28249	Encountered_Liara	
+13486	31300	Have_Liara_Location	
+14169	33098	Romance_active	ME3.ME1_Plots_for_ME3.Global_Plots.Henchman_Liara.Romance_active
+14271	33357	Liara	
+14484	33865	No_Liara	
+14485	33866	With_Liara	
+14525	33978	Discussed_Post_Liara	
+14526	33981	Liara_Faced_Benezia	
+14536	34025	Discussed_Post_Liara	
+14576	34176	Chose_Liara	
+15155	35989	Liara_Freed	
+15313	36540	First_Time_Liara	
+15386	36794	Liara_Reacts	
+15430	36905	Liara1	
+15431	36907	Liara2	
+15432	36909	Liara3	
+16598	40682	Liara_Complete	
+16803	41184	LiaraW_Complete	
+17154	42256	Remove_Liara	
+17663	50039	Liara	ME3.Utility.Henchmen.In_Squad.Liara
+17670	50065	Liara	ME3.Utility.Henchmen.In_Squad.Handshake.Liara
+17678	50087	Liara	ME3.Utility.Henchmen.In_Party.Liara
+17684	50094	Liara	ME3.Utility.Henchmen.Is_Selectable.Liara
+17860	50940	Blasted_Liara	ME3.Catalyst.Cat001.Cat001_Writing.Prothean_blasted_someone.Blasted_Liara
+18239	51862	Liara	ME3.Utility.Henchmen.Was_In_Squad.Liara
+18306	52083	Liara_Intro_Played	
+18358	52160	Liara_Paragon	ME3.Prologue.ProMar.Writer_States.Liara_Paragon
+18500	52513	Liara_Directed_To_Pedway	
+18891	53507	Spoke_with_Liara	
+19173	54164	Liara_Fixed_Tower	ME3.Genophage.KroGar.LevelDesign.LevelEvents.Liara_Fixed_Tower
+19476	55018	took_liara_investigate	ME3.Citadel.CitSam.Writing.took_liara_investigate
+19523	55169	Liara_Shot_Ash	ME3.Catalyst.Cat003.500_Showdown.Liara_Shot_Ash
+19524	55171	Liara_Shot_Kaidan	ME3.Catalyst.Cat003.500_Showdown.Liara_Shot_Kaidan
+19557	55268	chose_liara	ME3.N7.conflict.chose_liara
+19719	55701	Interrupt_LiaraWorry_WillTalk	ME3.Global.Henchmen.Tali.Relationship.Interrupt_LiaraWorry_WillTalk
+19720	55702	Interrupt_PostLiara_Approve	ME3.Global.Henchmen.Tali.Relationship.Interrupt_PostLiara_Approve
+19721	55703	Interrupt_PostLiara_Disapprove	ME3.Global.Henchmen.Tali.Relationship.Interrupt_PostLiara_Disapprove
+19722	55771	Romance_Accepted	ME3.Global.Henchmen.Liara.Romance_Accepted
+19727	55776	Romance_Rejected	ME3.Global.Henchmen.Liara.Romance_Rejected
+19880	56076	Aethyta_Liara_Speaking	ME3.Citadel.CitHub.Aethyta.Aethyta_Moment_Resolved.Aethyta_Liara_Speaking
+19881	56077	Aethyta_Liara_Not_Talking	ME3.Citadel.CitHub.Aethyta.Aethyta_Moment_Resolved.Aethyta_Liara_Not_Talking
+19901	56123	AAGunHenchmenLiara	ME3.Geth_Quarian.GthN7a.LevelDesign.LevelEvents.AAGunHenchmenLiara
+20039	56444	Shadow_Broker	ME3.Global.Henchmen.Liara.Normandy.Investigates.Shadow_Broker
+20040	56445	Crucible	ME3.Global.Henchmen.Liara.Normandy.Investigates.Crucible
+20041	56446	Drone	ME3.Global.Henchmen.Liara.Normandy.Investigates.Drone
+20042	56447	Past	ME3.Global.Henchmen.Liara.Normandy.Investigates.Past
+20051	56479	Liara_Consoled	ME3.Prologue.ProMar.Writer_States.Liara_Consoled
+20146	56758	Had_Cat003_MR	ME3.Global.Henchmen.Liara.Normandy.Had_Cat003_MR
+20170	56825	Had_Cat002_MR	ME3.Global.Henchmen.Liara.Normandy.Had_Cat002_MR
+20171	56828	Had_Character_Moment	ME3.Global.Henchmen.Liara.Normandy.Had_Character_Moment
+20211	56915	Liara_Talk1_Done	ME3.Citadel.CitHub.Liara.Liara_Talk1_Done
+20212	56917	Liara_Talk2_Done	ME3.Citadel.CitHub.Liara.Liara_Talk2_Done
+20219	56929	Had_Droney_Intro	ME3.Global.Henchmen.Liara.Normandy.Had_Droney_Intro
+20277	57070	Liara_reveaked_as_Shadowbroker	ME3.Global.Henchmen.Liara.Writer_states.Liara_reveaked_as_Shadowbroker
+20354	57292	chose_liara	ME3.N7.Noveria.chose_liara
+20358	57311	Comforted_Liara	ME3.Global.Henchmen.Liara.Writer_states.Comforted_Liara
+20483	57574	ChoseLiara	ME3.N7.Tower.Level_Events.ChoseLiara
+20507	57652	sent_liara	ME3.N7.Reactor.sent_liara
+21349	59806	Liara	ME3.Normandy.Light_Characters.War_Reporter.Comments.Liara
+21391	59986	Spoke_to_Liara	ME3.End_Game.End001.Writer_States.Spoke_to_Liara
+21393	59989	Rejected_liara_mindmeld	ME3.End_Game.End001.Writer_States.Rejected_liara_mindmeld
+21515	60415	Known_Associate_Liara_Tsoni	ME3.Global.Codex_Entries.Primary.Personal_History.Known_Associate_Liara_Tsoni
+21551	60507	Turned_Down_Sex	ME3.Global.Henchmen.Liara.Normandy.Turned_Down_Sex
+21758	61147	Continuing_ME1_romance	ME3.Global.Henchmen.Liara.Writer_states.Continuing_ME1_romance
+21844	61616	Sorry_Tali	ME3.Global.Henchmen.Liara.Normandy.One_Shot.Sorry_Tali
+21845	61617	Geth_Comment	ME3.Global.Henchmen.Liara.Normandy.One_Shot.Geth_Comment
+21846	61618	Wrex_Wreav	ME3.Global.Henchmen.Liara.Normandy.One_Shot.Wrex_Wreav
+21847	61619	Ruins	ME3.Global.Henchmen.Liara.Normandy.One_Shot.Ruins
+21848	61620	Eve	ME3.Global.Henchmen.Liara.Normandy.One_Shot.Eve
+21849	61621	Krogan_Wayside	ME3.Global.Henchmen.Liara.Normandy.One_Shot.Krogan_Wayside
+21850	61622	Krogan_Move	ME3.Global.Henchmen.Liara.Normandy.One_Shot.Krogan_Move
+21851	61623	Krogan_Gear_Up	ME3.Global.Henchmen.Liara.Normandy.One_Shot.Krogan_Gear_Up
+21852	61624	Krogan_Legacy	ME3.Global.Henchmen.Liara.Normandy.One_Shot.Krogan_Legacy
+21853	61647	Krogan_Cure	ME3.Global.Henchmen.Liara.Normandy.One_Shot.Krogan_Cure
+21856	61665	Cheating_shepard_confronted	ME3.Global.Henchmen.Liara.Writer_states.Cheating_shepard_confronted
+21903	61831	OmgJck	ME3.Global.Henchmen.Liara.Normandy.MR_Shepard.OmgJck
+21904	61832	Kro001Wreav	ME3.Global.Henchmen.Liara.Normandy.MR_Shepard.Kro001Wreav
+21905	61833	KroN7a	ME3.Global.Henchmen.Liara.Normandy.MR_Shepard.KroN7a
+21906	61834	KroN7b	ME3.Global.Henchmen.Liara.Normandy.MR_Shepard.KroN7b
+21907	61835	KroGar_No_Garrus	ME3.Global.Henchmen.Liara.Normandy.MR_Shepard.KroGar_No_Garrus
+21908	61836	CitSam	ME3.Global.Henchmen.Liara.Normandy.MR_Shepard.CitSam
+21909	61837	Cat004	ME3.Global.Henchmen.Liara.Normandy.MR_Shepard.Cat004
+21910	61852	Cat002	ME3.Global.Henchmen.Liara.Normandy.MR_Other.Cat002
+21911	61853	Kro001_Wrex	ME3.Global.Henchmen.Liara.Normandy.MR_Other.Kro001_Wrex
+21912	61854	KroGru	ME3.Global.Henchmen.Liara.Normandy.MR_Other.KroGru
+21913	61855	Kro002	ME3.Global.Henchmen.Liara.Normandy.MR_Other.Kro002
+21914	61856	KroGar_Garrus	ME3.Global.Henchmen.Liara.Normandy.MR_Other.KroGar_Garrus
+21915	61857	Cat003	ME3.Global.Henchmen.Liara.Normandy.MR_Other.Cat003
+21916	61858	GthN7a	ME3.Global.Henchmen.Liara.Normandy.MR_Other.GthN7a
+21917	61859	GthLeg	ME3.Global.Henchmen.Liara.Normandy.MR_Other.GthLeg
+21918	61860	CerJcb	ME3.Global.Henchmen.Liara.Normandy.MR_Other.CerJcb
+21919	61861	CerMir	ME3.Global.Henchmen.Liara.Normandy.MR_Other.CerMir
+21921	61883	KroGru_Kaidan	ME3.Global.Henchmen.Liara.Normandy.MR_Other.KroGru_Kaidan
+21922	61886	Had_MR_Other_This_Mission	ME3.Global.Henchmen.Liara.Normandy.Had_MR_Other_This_Mission
+21923	61888	KroN7a_Garrus	ME3.Global.Henchmen.Liara.Normandy.MR_Other.KroN7a_Garrus
+21935	61915	Cat001	ME3.Global.Henchmen.Liara.Normandy.MR_Shepard.Cat001
+21938	61923	Gth002	ME3.Global.Henchmen.Liara.Normandy.MR_Other.Gth002
+21943	61935	Liara_Cat002_Spoke_After	ME3.Global.Henchmen.Tali.Normandy.Liara_Cat002_Spoke_After
+21944	61938	Liara_Cat002_Spoke_Before	ME3.Global.Henchmen.Tali.Normandy.Liara_Cat002_Spoke_Before
+21946	61947	Entered_Liara_Office_Cat002	ME3.Global.Henchmen.Tali.Normandy.Entered_Liara_Office_Cat002
+21948	61953	Had_MR_Cat002_After_Liara	ME3.Global.Henchmen.Tali.Normandy.Had_MR_Cat002_After_Liara
+21949	61958	Spoke_with_Liara	
+21953	61964	KroN7a_Garrus2	ME3.Global.Henchmen.Liara.Normandy.MR_Other.KroN7a_Garrus2
+22082	62147	Had_Character_Moment	ME3.Citadel.CitHub.Liara.Had_Character_Moment
+22097	62192	Finished_liara_investigate_on_action_mode	ME3.Global.Henchmen.Liara.Writer_states.Finished_liara_investigate_on_action_mode
+22110	62209	Liara_Power_1	ME3.Utility.System.Henchmen_Powers.Liara_Power_1
+22111	62210	Liara_Power_2	ME3.Utility.System.Henchmen_Powers.Liara_Power_2
+22239	62634	Gth001_Amb_Choice_Sided_Liara	ME3.Global.Henchmen.Liara.Normandy.Gth001_Amb_Choice_Sided_Liara
+22240	62635	Gth001_Amb_Choice_Sided_Joker	ME3.Global.Henchmen.Liara.Normandy.Gth001_Amb_Choice_Sided_Joker
+22243	62644	Gth001_Amb_Choice_Active	ME3.Global.Henchmen.Liara.Normandy.Gth001_Amb_Choice_Active
+22267	62696	Rejected_Liara_Culmination_Scene	ME3.Global.Henchmen.Liara.Writer_states.Rejected_Liara_Culmination_Scene
+22320	62871	Mentioned_Breakup	ME3.Global.Henchmen.Liara.Normandy.Mentioned_Breakup
+22378	63072	End001_LiaraDead	ME3.End_Game.End001.Characters.Death.End001_LiaraDead
+22389	63099	Liara_Selectable	ME3.End_Game.End003.Eden_Cutscene.Liara_Selectable
+22403	63140	No_Liara_Romance	ME3.Global.ME3_Texts.Plot_Completion.No_Liara_Romance
+22404	63142	Start_Liara_Romance	ME3.Global.ME3_Texts.Plot_Completion.Start_Liara_Romance
+22437	63226	Liara_on_Geno1	ME3.Global.ME3_Texts.Plot_Completion.Liara_on_Geno1
+22444	63240	Post_Cat1_Liara	ME3.Global.ME3_Texts.Plot_Completion.Post_Cat1_Liara
+22461	63280	CitSam_Liara_on_mission	ME3.Global.ME3_Texts.Plot_Completion.CitSam_Liara_on_mission
+22486	63330	Liara_True_Love	ME3.Global.ME3_Texts.Plot_Completion.Liara_True_Love
+22555	63481	Liara_R1_NoRomance	ME3.Global.ME3_Texts.Plot_Completion.Liara_R1_NoRomance
+22556	63483	Liara_R1_romance	ME3.Global.ME3_Texts.Plot_Completion.Liara_R1_romance
+22557	63485	Liara_R2_done	ME3.Global.ME3_Texts.Plot_Completion.Liara_R2_done
+22558	63487	Liara_Cat3_done	ME3.Global.ME3_Texts.Plot_Completion.Liara_Cat3_done
+22559	63489	Liara_Cat2_done	ME3.Global.ME3_Texts.Plot_Completion.Liara_Cat2_done
+22560	63491	Liara_char_moment	ME3.Global.ME3_Texts.Plot_Completion.Liara_char_moment
+22565	63511	Liara_char_moment_romance	ME3.Global.ME3_Texts.Plot_Completion.Liara_char_moment_romance
+22599	63825	Liara_Cit_Talk_1	ME3.Global.ME3_Texts.Plot_Completion.Liara_Cit_Talk_1
+22606	63840	Liara_Char_Non_Rom	ME3.Global.ME3_Texts.Plot_Completion.Liara_Char_Non_Rom
+22655	64037	Char_Liara	ME3.Normandy.Light_Characters.Comm.Barks.Char_Liara
+23217	65853	Liara_SawFlashback	ME3.DLC_CON_END.FlashBacks.Liara_SawFlashback
+23218	65855	Liara_LI_Alive	ME3.DLC_CON_END.FlashBacks.Liara_LI_Alive
+23220	65859	Liara_Dead_London	ME3.DLC_CON_END.FlashBacks.Liara_Dead_London
+23278	65983	Liara_LIFlashback	ME3.DLC_CON_END.LoveInterest_Flashback.Liara_LIFlashback
+23290	66007	Liara_CloseFriendFB	ME3.DLC_CON_END.CloseFriend_Flashback.Liara_CloseFriendFB
+23360	66177	Liara_Sacrifice	ME3.DLC_CON_END.Sacrifice_Flashback.Liara_Sacrifice
+23408	66292	Liara_Plaque	ME3.DLC_CON_END.Memorial.Liara_Plaque
+23561	66712	Liara_Lev002_Amb	ME3.DLC_EXP_Pack001.Global.Henchmen.Liara_Lev002_Amb
+23562	66713	Liara_Lev003_Amb	ME3.DLC_EXP_Pack001.Global.Henchmen.Liara_Lev003_Amb
+23563	66714	Liara_Lev004_Amb	ME3.DLC_EXP_Pack001.Global.Henchmen.Liara_Lev004_Amb
+23626	66924	Liara	ME3.DLC_CON_END.END1.Henchmen_Present_at_Conduit.Liara
+23723	67195	Talked_on_Balcony	ME3.DLC_EXP_Pack003.Apartment.Character_Moments.Liara.Talked_on_Balcony
+23894	67704	Liara_in_Team2	ME3.DLC_EXP_Pack003.Cit003.Henchmen.Liara_in_Team2
+24064	68506	Liara	ME3.DLC_EXP_Pack003.Cit002.Carpet_Infiltrate.WhichHenchman.Liara
+24105	68603	Liara_CharMoment	ME3.DLC_EXP_Pack003.Apartment.Character_Moments.Apartment_Moments.Liara_CharMoment
+24116	68634	Liara	ME3.DLC_EXP_Pack003.Cit004.Writing_States.Radio_Who_Talked.Liara
+24176	68817	Liara_Distract_1_Done	ME3.DLC_EXP_Pack003.Cit002.Henchmen_Distractions.Liara_Distractions.Liara_Distract_1_Done
+24177	68818	Liara_Distract_2_Done	ME3.DLC_EXP_Pack003.Cit002.Henchmen_Distractions.Liara_Distractions.Liara_Distract_2_Done
+24178	68819	Liara_Distract_3_Done	ME3.DLC_EXP_Pack003.Cit002.Henchmen_Distractions.Liara_Distractions.Liara_Distract_3_Done
+24257	69077	Liara_AptMoment_Done	ME3.DLC_EXP_Pack003.Apartment.Character_Moments.Apartment_Moments.Liara_AptMoment_Done
+24351	69363	Liara_MRCit001_Done	ME3.DLC_EXP_Pack003.Apartment.Post_Cit001.Liara_MRCit001_Done
+24362	69385	Liara_MRCit002_Done	ME3.DLC_EXP_Pack003.Apartment.Post_Cit002.Liara_MRCit002_Done
+24531	69934	Liara_1on1_Done	ME3.DLC_EXP_Pack003.Apartment.Party_One_on_Ones.Liara_1on1_Done
+24554	69996	Liara	ME3.DLC_EXP_Pack003.Global.Hench_InGalaSquad.Liara
+24574	70073	Liara_Aftermath_Done	ME3.DLC_EXP_Pack003.Apartment.Party_Aftermath.Liara_Aftermath_Done
+24593	70162	Liara_present_on_mission	ME3.DLC_EXP_Pack003.Cit001.Writing.Liara_present_on_mission.Liara_present_on_mission
+24612	70223	Buddy_liara	ME3.DLC_EXP_Pack003.Cit001.Writing.Buddy_Check.Buddy_liara
+24817	70887	liara_camhint_a_played	ME3.DLC_EXP_Pack003.Cit002.Carpet_Infiltrate.liara_camhint_a_played
+24854	71134	Apt_Liara	ME3.DLC_EXP_Pack003.CitHot.Moments_Available.Apt_Liara
+24875	71190	Apt_Liara	ME3.DLC_EXP_Pack003.CitHot.Moments_Gate.Apt_Liara
+25023	71685	Liara_Char_Moment_Romance	ME3.DLC_EXP_Pack003.DLC_Texts.Liara_Char_Moment_Romance
+25024	71687	Liara_Char_Moment_NonRomance	ME3.DLC_EXP_Pack003.DLC_Texts.Liara_Char_Moment_NonRomance
+25025	71689	Liara_Party_Complete_Romance	ME3.DLC_EXP_Pack003.DLC_Texts.Liara_Party_Complete_Romance
+25026	71691	Liara_Party_Complete_NonRomance	ME3.DLC_EXP_Pack003.DLC_Texts.Liara_Party_Complete_NonRomance
+
+
